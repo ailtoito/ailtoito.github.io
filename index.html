@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Minha Página</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 2rem; background:#f7f7fb; color:#111; }
+    header { max-width:900px; margin:0 auto; }
+    h1 { color:#0b5fff; }
+    p { line-height:1.6; }
+    .card { background:#fff; padding:1.2rem; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.06); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="card">
+      <h1>Olá — Minha página na web</h1>
+      <p>Esta é uma página de exemplo criada rapidamente. Edite este conteúdo para começar.</p>
+      <p><a href="#" id="action">Clique aqui</a> para testar interação simples.</p>
+    </div>
+  </header>
+  <script>
+    document.getElementById('action').addEventListener('click', e => {
+      e.preventDefault();
+      alert('Funcionando!');
+    });
+  </script>
+</body>
+</html>
