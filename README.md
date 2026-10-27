@@ -1,2 +1,2 @@
 # ailtoito.github.io
-Site criado pelo assistente — página inicial simples para GitHub Pages
+Site criado por Ailton — página inicial simples para GitHub Pages
