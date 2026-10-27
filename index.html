@@ -58,7 +58,7 @@
             </div>
             <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 border-t-4 border-t-purple-600">
                 <h3 class="font-bold text-slate-900 text-lg mb-2"><i class="fa-solid fa-robot text-purple-600 mr-2"></i> Inovação & IA</h3>
-                <p class="text-slate-600 text-sm">Projetos de Inteligência Artificial, RPA e Power Automate para automação de regras de negócio, e-commerce Magento e integração de APIs no ecossistema de saúde.</p>
+                <p class="text-slate-600 text-sm">Projetos de Inteligência Artificial, RPA e Power Automate para automação de regras de negócio, e-commerce Magento e integration de APIs no ecossistema de saúde.</p>
             </div>
         </section>
 
@@ -171,66 +171,112 @@
                         Plataforma SaaS B2B idealizada para entregas da gestão preditiva do ciclo de receita em medicamentos de especialidades e inteligência anti-glosa. Arquitetura estruturada com módulos de motor de faturamento em conformidade com o padrão TISS, ingestão de matriz universal com validação <em>Clean Claim Check</em> e automação via robôs RPA/API (Headless e Manual Assistido) comunicando-se com portais de operadoras de saúde. O ecossistema abriga também o <em>PharmaFlux Connect</em>, um marketplace B2B equipado com algoritmo MCDA para otimização em requisições de compras. O projeto apresenta uma estética <em>dark-theme</em> com dashboards executivos para acompanhamento financeiro em tempo real e mantém forte compliance com as normas de LGPD (Privacy by Design) no gerenciamento de cadastros e dados sensíveis.
                     </p>
 
-                    <!-- Galeria de Telas do PharmaFlux -->
+                    <!-- Galeria de Telas do PharmaFlux (Com Links para Abrir em Nova Aba) -->
                     <div class="mt-6 pt-4 border-t border-slate-100">
-                        <h4 class="text-sm font-bold text-slate-800 mb-3"><i class="fa-solid fa-images text-emerald-600 mr-2"></i> Telas do Sistema</h4>
+                        <h4 class="text-sm font-bold text-slate-800 mb-3 flex items-center gap-2">
+                            <i class="fa-solid fa-images text-emerald-600"></i> Telas do Sistema 
+                            <span class="text-[11px] font-normal text-slate-500">(Clique em qualquer imagem para ampliar em outra aba)</span>
+                        </h4>
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                            
                             <!-- Card Tela 1 -->
-                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm">
-                                <img src="assets/img/pharmaflux-dashboard.jpg" alt="Dashboard Executivo" class="w-full h-32 object-cover object-top opacity-90 hover:opacity-100 transition">
-                                <div class="p-2.5">
+                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm flex flex-col">
+                                <a href="assets/img/pharmaflux-dashboard.jpg" target="_blank" title="Clique para ampliar em outra aba" class="block overflow-hidden relative group">
+                                    <img src="assets/img/pharmaflux-dashboard.jpg" alt="Dashboard Executivo" class="w-full h-32 object-cover object-top opacity-90 group-hover:opacity-100 group-hover:scale-105 transition duration-300">
+                                    <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white text-xs font-semibold gap-1">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i> Ampliar
+                                    </div>
+                                </a>
+                                <div class="p-2.5 flex-1 flex flex-col justify-between">
                                     <p class="text-xs font-semibold text-white">Dashboard Executivo.</p>
-                                    <p class="text-[11px] text-slate-400">Dashboard Executivo — visão do ciclo de receita, glosas em aberto, ticket médio e performance por operadora em tempo real.</p>
+                                    <p class="text-[11px] text-slate-400 mt-1">Dashboard Executivo — visão do ciclo de receita, glosas em aberto, ticket médio e performance por operadora em tempo real.</p>
                                 </div>
                             </div>
+
                             <!-- Card Tela 2 -->
-                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm">
-                                <img src="assets/img/pharmaflux-ingestao.jpg" alt="Ingestão Matriz Universal" class="w-full h-32 object-cover object-top opacity-90 hover:opacity-100 transition">
-                                <div class="p-2.5">
+                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm flex flex-col">
+                                <a href="assets/img/pharmaflux-ingestao.jpg" target="_blank" title="Clique para ampliar em outra aba" class="block overflow-hidden relative group">
+                                    <img src="assets/img/pharmaflux-ingestao.jpg" alt="Ingestão Matriz Universal" class="w-full h-32 object-cover object-top opacity-90 group-hover:opacity-100 group-hover:scale-105 transition duration-300">
+                                    <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white text-xs font-semibold gap-1">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i> Ampliar
+                                    </div>
+                                </a>
+                                <div class="p-2.5 flex-1 flex flex-col justify-between">
                                     <p class="text-xs font-semibold text-white">Ingestão Matriz Universal.</p>
-                                    <p class="text-[11px] text-slate-400"> Ingestão Matriz Universal — importação de extratos e remessas com Clean Claim Check antes do envio à operadora.</p>
+                                    <p class="text-[11px] text-slate-400 mt-1">Ingestão Matriz Universal — importação de extratos e remessas com Clean Claim Check antes do envio à operadora.</p>
                                 </div>
                             </div>
+
                             <!-- Card Tela 3 -->
-                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm">
-                                <img src="assets/img/pharmaflux-rpa.jpg" alt="Portais e Robôs RPA" class="w-full h-32 object-cover object-top opacity-90 hover:opacity-100 transition">
-                                <div class="p-2.5">
+                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm flex flex-col">
+                                <a href="assets/img/pharmaflux-rpa.jpg" alt="Portais e Robôs RPA" target="_blank" title="Clique para ampliar em outra aba" class="block overflow-hidden relative group">
+                                    <img src="assets/img/pharmaflux-rpa.jpg" alt="Portais e Robôs RPA" class="w-full h-32 object-cover object-top opacity-90 group-hover:opacity-100 group-hover:scale-105 transition duration-300">
+                                    <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white text-xs font-semibold gap-1">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i> Ampliar
+                                    </div>
+                                </a>
+                                <div class="p-2.5 flex-1 flex flex-col justify-between">
                                     <p class="text-xs font-semibold text-white">Portais e Robôs RPA.</p>
-                                    <p class="text-[11px] text-slate-400">Portais e Robôs RPA — automação de consultas, protocolos e baixas nos portais das operadoras de saúde.</p>
+                                    <p class="text-[11px] text-slate-400 mt-1">Portais e Robôs RPA — automação de consultas, protocolos e baixas nos portais das operadoras de saúde.</p>
                                 </div>
                             </div>
+
                             <!-- Card Tela 4 -->
-                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm">
-                                <img src="assets/img/pharmaflux-connect.jpg" alt="Connect MCDA" class="w-full h-32 object-cover object-top opacity-90 hover:opacity-100 transition">
-                                <div class="p-2.5">
+                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm flex flex-col">
+                                <a href="assets/img/pharmaflux-connect.jpg" target="_blank" title="Clique para ampliar em outra aba" class="block overflow-hidden relative group">
+                                    <img src="assets/img/pharmaflux-connect.jpg" alt="Connect MCDA" class="w-full h-32 object-cover object-top opacity-90 group-hover:opacity-100 group-hover:scale-105 transition duration-300">
+                                    <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white text-xs font-semibold gap-1">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i> Ampliar
+                                    </div>
+                                </a>
+                                <div class="p-2.5 flex-1 flex flex-col justify-between">
                                     <p class="text-xs font-semibold text-white">Connect MCDA — Marketplace B2B.</p>
-                                    <p class="text-[11px] text-slate-400">Connect MCDA — Marketplace B2B que conecta deliverys, distribuidoras, hospitais e clínicas em uma única rede.</p>
+                                    <p class="text-[11px] text-slate-400 mt-1">Connect MCDA — Marketplace B2B que conecta deliverys, distribuidoras, hospitais e clínicas em uma única rede.</p>
                                 </div>
                             </div>
+
                             <!-- Card Tela 5 -->
-                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm">
-                                <img src="assets/img/pharmaflux-faturamento.jpg" alt="Faturamento TISS" class="w-full h-32 object-cover object-top opacity-90 hover:opacity-100 transition">
-                                <div class="p-2.5">
+                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm flex flex-col">
+                                <a href="assets/img/pharmaflux-faturamento.jpg" target="_blank" title="Clique para ampliar em outra aba" class="block overflow-hidden relative group">
+                                    <img src="assets/img/pharmaflux-faturamento.jpg" alt="Faturamento TISS" class="w-full h-32 object-cover object-top opacity-90 group-hover:opacity-100 group-hover:scale-105 transition duration-300">
+                                    <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white text-xs font-semibold gap-1">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i> Ampliar
+                                    </div>
+                                </a>
+                                <div class="p-2.5 flex-1 flex flex-col justify-between">
                                     <p class="text-xs font-semibold text-white">Faturamento TISS e Anti-Glosa.</p>
-                                    <p class="text-[11px] text-slate-400"> Motor de Faturamento TISS e Anti-Glosa — geração de guias, consistência de tabelas e prevenção de glosas.</p>
+                                    <p class="text-[11px] text-slate-400 mt-1">Motor de Faturamento TISS e Anti-Glosa — geração de guias, consistência de tabelas e prevenção de glosas.</p>
                                 </div>
                             </div>
+
                             <!-- Card Tela 6 -->
-                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm">
-                                <img src="assets/img/pharmaflux-contratos.jpg" alt="Contratos e Catálogo" class="w-full h-32 object-cover object-top opacity-90 hover:opacity-100 transition">
-                                <div class="p-2.5">
+                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm flex flex-col">
+                                <a href="assets/img/pharmaflux-contratos.jpg" target="_blank" title="Clique para ampliar em outra aba" class="block overflow-hidden relative group">
+                                    <img src="assets/img/pharmaflux-contratos.jpg" alt="Contratos e Catálogo" class="w-full h-32 object-cover object-top opacity-90 group-hover:opacity-100 group-hover:scale-105 transition duration-300">
+                                    <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white text-xs font-semibold gap-1">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i> Ampliar
+                                    </div>
+                                </a>
+                                <div class="p-2.5 flex-1 flex flex-col justify-between">
                                     <p class="text-xs font-semibold text-white">Contratos e Catálogo de Produtos.</p>
-                                    <p class="text-[11px] text-slate-400"> Contratos e Catálogo de Produtos — gestão de contratos, tabelas negociadas e catálogo atualizado por operadora.</p>
+                                    <p class="text-[11px] text-slate-400 mt-1">Contratos e Catálogo de Produtos — gestão de contratos, tabelas negociadas e catálogo atualizado por operadora.</p>
                                 </div>
                             </div>
+
                             <!-- Card Tela 7 -->
-                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm">
-                                <img src="assets/img/pharmaflux-lgpd.jpg" alt="Gestão e LGPD" class="w-full h-32 object-cover object-top opacity-90 hover:opacity-100 transition">
-                                <div class="p-2.5">
+                            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700 shadow-sm flex flex-col">
+                                <a href="assets/img/pharmaflux-lgpd.jpg" target="_blank" title="Clique para ampliar em outra aba" class="block overflow-hidden relative group">
+                                    <img src="assets/img/pharmaflux-lgpd.jpg" alt="Gestão e LGPD" class="w-full h-32 object-cover object-top opacity-90 group-hover:opacity-100 group-hover:scale-105 transition duration-300">
+                                    <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white text-xs font-semibold gap-1">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i> Ampliar
+                                    </div>
+                                </a>
+                                <div class="p-2.5 flex-1 flex flex-col justify-between">
                                     <p class="text-xs font-semibold text-white">Gestão de Cadastros e LGPD.</p>
-                                    <p class="text-[11px] text-slate-400"> Gestão de Cadastros e LGPD — base cadastral governada, trilhas de auditoria e conformidade com a LGPD.</p>
+                                    <p class="text-[11px] text-slate-400 mt-1">Gestão de Cadastros e LGPD — base cadastral governada, trilhas de auditoria e conformidade com a LGPD.</p>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
